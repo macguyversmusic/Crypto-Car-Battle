@@ -2,9 +2,16 @@
 
 cloned - Crypto Car Battle - https://github.com/CodinMaster/Crypto-Car-Battle
 
+Space Racer V1.0
+
 NFT (ERC721) based HTML5 game with Crypto Payouts to the Winner.
 
-### Try it out: [Web Demo Link](https://apoorvlathey.com/projects/crypto-car-battle/)
+### Try it out: [Web Demo Link](https://cryptoinca.pro/spacerace/)
+
+the idea is to repurpose this contract in the wild as a back end for many 2 player and multi player VS type games using phaser.
+new games will all call the same functions.
+
+NOTE - contract doesnt compile on remix.  i compiled using truffle-config.js settings and applying default suggested fixes from VScode
 
 ## Game Walkthrough
 1. Login via Metamask
