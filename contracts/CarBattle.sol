@@ -1,5 +1,7 @@
 pragma solidity ^0.6.2;
-
+//the import is outdated and needs to be done in a different way unless we find a way to force remix to use the same solidity zeppelin as the contract
+//i did this in spacerace by importing the contract 
+//to truffle and pulling the correct solidity version of erc721.sol.
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
 
 contract CarBattle is ERC721 {
