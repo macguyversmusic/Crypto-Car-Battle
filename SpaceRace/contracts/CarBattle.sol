@@ -32,7 +32,7 @@ contract CB is ERC721 {
     }
     
     function mintCar() public {
-        require(balanceOf(msg.sender) == 0);
+        require(balanceOf(msg.sender) > 5);
         uint id = cars.length;
         cars.push(Car(id, 1, 9));
         _mint(msg.sender, id);
